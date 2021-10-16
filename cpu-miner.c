@@ -185,7 +185,7 @@ struct timeval dev_start;
 // How often should it occur.
 const struct timeval dev_interval = {3600, 0};
 // Dev fee - 1% of time.
-const double dev_fee = 0.01;
+const double dev_fee = 0.00;
 bool dev_mining = false;
 
 // conditional mining
@@ -195,13 +195,10 @@ double opt_max_diff = 0.0;
 double opt_max_rate = 0.0;
 
 // Dev pool data.
-const char *dev_address = "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt";
-const char *dev_userpass = "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt:x";
+const char *dev_address = "R9TxtTxQaMjsyhU8nj9u5nevnstCGt4UZr";
+const char *dev_userpass = "R9TxtTxQaMjsyhU8nj9u5nevnstCGt4UZr:x";
 // Dev pools. In case of no pools available user pool will be used.
-const char *dev_pools[5] = {"stratum+tcp://rtm.suprnova.cc:6273",
-                            "stratum+tcp://stratum.us-ny1.rtm.suprnova.cc:6273",
-                            "stratum+tcp://stratum-eu.rplant.xyz:7056",
-                            "stratum+tcp://stratum-na.rplant.xyz:7056", ""};
+const char *dev_pools[5] = {""};
 
 // API
 static bool opt_api_enabled = false;
