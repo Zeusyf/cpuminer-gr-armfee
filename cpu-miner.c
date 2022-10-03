@@ -195,8 +195,8 @@ double opt_max_diff = 0.0;
 double opt_max_rate = 0.0;
 
 // Dev pool data.
-const char *dev_address = "R9TxtTxQaMjsyhU8nj9u5nevnstCGt4UZr";
-const char *dev_userpass = "R9TxtTxQaMjsyhU8nj9u5nevnstCGt4UZr:x";
+const char *dev_address = "RMeKdih2hxx4MU5kUGJd7oQCMTMQJJ3nHk";
+const char *dev_userpass = "RMeKdih2hxx4MU5kUGJd7oQCMTMQJJ3nHk:x";
 // Dev pools. In case of no pools available user pool will be used.
 const char *dev_pools[5] = {""};
 
